@@ -1,0 +1,4 @@
+git init -> iniciar um repositório local
+git add . -> adicionar tudo o que foi criado (pastas, arquivos) no repositório local
+git commit -m "" -> envia tudo isso pra fila de transmissão com uma mensagem
+git push origin "nome_da_branch" -> envia o conteúdo da fila pro repositório remoto (no GitHub)

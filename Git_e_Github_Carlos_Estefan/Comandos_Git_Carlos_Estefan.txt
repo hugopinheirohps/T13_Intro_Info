@@ -1,0 +1,6 @@
+Comandos Criar
+Clonar un repositorio existente
+$ git clone ssh://usuario@domain.com/repo.git
+Criar um novo repositório local
+$ git init
+teste
