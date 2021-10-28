@@ -1,0 +1,20 @@
+$ ls Listar arquivos no
+diretório ou pasta
+$ ls -a Listar todos os arquivos,
+incluindo arquivos
+ocultos
+$ ls -l Mostra todas as
+informações sobre uma
+pasta: usuário, grupo,
+permissões, tamanho,
+data e hora de criação.
+$ ls -R Exibe as pastas e
+arquivos contidos neles
+recursivamente
+$ pwd
+Exibe a pasta atualmente
+sendo trabalhada
+mais [Nome
+do arquivo]
+Exibe o conteúdo de um
+arquivo
