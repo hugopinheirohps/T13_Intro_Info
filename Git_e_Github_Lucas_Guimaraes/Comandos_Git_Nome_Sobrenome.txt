@@ -1,0 +1,11 @@
+git add. -> adicionar as alterações a linha do tempo (backstage) do trabalho
+git commit -> salvar as alterações a linha do tempo do trabalho
+git clone -> clonar repositorio do github
+git init -> criar repositorio local
+git branch -> criar nova branch
+git checkout -> mudar branch nova
+git pull -> atualizar repositorio
+git push -> mandar modificações
+rm -rf .git -> excluir repositorio local
+git remote add origin -> linkar o repositório remoto do github ao repositório local
+
