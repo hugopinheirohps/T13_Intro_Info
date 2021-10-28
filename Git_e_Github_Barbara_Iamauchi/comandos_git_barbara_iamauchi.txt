@@ -1,0 +1,10 @@
+Git Init
+Git Add
+Git Commit
+Git Clone
+Git remote add <nome> <link>
+Git Checkout
+Git merge
+Git push <nome-remote> <nome-branch>
+Git pull <nome-remote> <nome-branch>
+Git status
