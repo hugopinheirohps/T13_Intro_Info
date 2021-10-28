@@ -1,0 +1,31 @@
+--> Comandos:
+Repositório com tutorial: https://github.com/rafaballerini/GitTutorial
+• git --version: ver a versão;
+• Git bach Here: abrir dentro de uma pasta;
+• Cd: para abrir pastas ou cd.. para sair de pastas;
+• git init: iniciar um repositório git
+• git add . : envia os arquivos para o git stand (não esquecer do ponto e do espaço antes do ponto)
+• git status: ver status após o git add;
+
+• Comandos de configurações:
+- git config --global user.email "you@example.com"
+- git config --global user.name "Seu nome"
+
+• Git commit -m "título do commmit": comitar as alterações;
+• Git branch -M "main": para mudar o nome da branch principal de Master para Main;
+
+• git remote add origin <link.git>:  Criar a conexão do repositório local com o remoto que está no link
+- O Crtl-v é a tecla insert
+• git push -u origin main: carregar os arquivos locais para o remoto. O origin é o nome dado ao local de origem e o main é de onde se quer carregar o arquivo;
+• Git git origin 
+
+• git checkout -b "teste-brunch": criando uma branch (ramificação);
+
+• git checkout main: para voltar para a brunch principal ou navegar para outra brunch;
+
+• git merge nomedabrunch: para juntar a brunch com a principal. Necessário voltar para a main (comando listado acima);
+
+• git push origin main: push da main para o GitHub;
+• git  clone <link do repositório> para clonar um repositório, não precisa do <>
+
+• git pull: baixar as alterações que estavam no repositório;

@@ -1,0 +1,13 @@
+clonar um repo
+$git clone ssh://usuario@domain.com/repo.git
+Criar um novo repo local
+$git init
+Adicionar arquivos
+$git add .
+adicionar alteraçao 
+$git commit -m 
+enviar para repo remoto
+$git push origin branch
+trazer as alteraçoes do repo remoto
+$git pull 
+
