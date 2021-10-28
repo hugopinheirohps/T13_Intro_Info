@@ -1,0 +1,25 @@
+Se eu estou criando um repositório:
+Crio o repositório no GITHUB. 
+Vou no meu desktop e crio uma pasta (ela será o repositório)
+Dou um GIT BASH nessa pasta
+git init (oficialmente faz essa pasta ser um repositório)
+git remote add origin https://github.com/MEUUSUARIO/REPOSITORIOGITHUB.git (faz o link entre minha pasta e o github)
+
+
+Se eu quero criar arquivos e subir no github:
+git status (mostra que esses arquivos ainda não estão sincronizados)
+git add . (adiciona todos os arquivos para serem enviados)
+git commit -m "algum texto" (cria o texto do commit)
+git push origin master/main (envia para o github!)
+
+Se eu precisar puxar algo que foi adicionado no github por outra pessoa:
+git pull origin master/main
+
+Se alguém criou um repositório e eu quero clonar:
+Não preciso criar nenhuma pasta, o fato de clonar já vai criar a pasta.
+git clone https://github.com/USUARIO/REPOSITORIOGITHUB.git
+
+
+Se eu estou fazendo um push e deu conflito:
+git push origin master/main (tentando enviar e vai dar erro)
+git pull origin master/main 
