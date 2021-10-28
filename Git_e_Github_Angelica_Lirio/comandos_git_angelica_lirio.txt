@@ -1,0 +1,6 @@
+Clonar repositório - git clone
+Caminhar entre as pastas - cd
+Adicionar atualizações - git add
+Criar versão - git commit -m ""
+Atualizar repositório - git pull
+Encaminhar atualizações - git push
