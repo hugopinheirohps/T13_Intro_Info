@@ -1,0 +1,19 @@
+git init --> cria um repositório
+
+git config --global user.name nomeUsuario --> adiciona o nome ao repositório
+
+git config --global user.email nomeUsuario@email.com --> adiciona o email ao repositório
+
+git clone https://github.com/url_de_exemplo --> clona um repositório remoto
+
+git nomeDaBranch --> cria uma branch nova
+
+git checkout --> sai da main para a branch nova
+
+git add . --> adiciona todos os arquivos
+
+git status --> mostra o estado dos arquivos
+
+git commit -m --> Inclui uma mensagem de envio dos arquivos, criando um ponto (marco) na linha temporal do repositório
+
+git push origin nomeDaBranch (ou main, se clone; ou master, se própria) --> envia os arquivos locais para o repositório remoto
