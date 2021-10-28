@@ -1,0 +1,6 @@
+Quem inventou o sistema de controle de versão Git foi Linus Torvalds para o 
+desenvolvimento do Kernel do Linux.
+Atualmente a dona do Github é a Microsoft desde o ano de 2018.
+Existe outra maneira de utilzar o Github além do terminal que seria diretamente
+no site.
+Mas o metodo mais comum e ágil é sendo executado através de linha de comando.
