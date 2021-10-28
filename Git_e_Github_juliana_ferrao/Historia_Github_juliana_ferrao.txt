@@ -1,0 +1,3 @@
+a. Linus Torvalds / 15 anos atrás para desenvolver o kernel do Linux
+b. Microsoft / "A Microsoft é uma empresa que desenvolve em primeiro plano e, ao unir forças com o GitHub, fortalecemos nosso compromisso com a liberdade, a abertura e a inovação dos desenvolvedores. Reconhecemos a responsabilidade da comunidade que assumimos com este acordo e faremos o nosso melhor trabalho para capacitar cada desenvolvedor a construir, inovar e resolver os desafios mais prementes do mundo"
+c. Gitbash / Git Desktop
