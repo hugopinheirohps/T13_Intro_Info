@@ -1,0 +1,21 @@
+Comandos GitHub
+
+Comando
+Git Init 
+Resultado
+Cria um novo repositório local
+
+comando 
+Git mkdir 
+Resultado 
+Cria uma nova pasta no repositório local
+
+Comando 
+git touch 
+Resultado
+Cria um novo arquivo no repositório 
+
+Comando 
+Git Clone https://exemplo.exmplo
+Resultado 
+Clona um ropositório do git para o seu local  
