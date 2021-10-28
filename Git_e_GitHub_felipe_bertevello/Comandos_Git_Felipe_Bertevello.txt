@@ -1,0 +1,13 @@
+$ git init - iniciar um repositório local
+
+$ git add - adicionar as alterações a linha do tempo (backstage) do trabalho
+
+$ git commit - salvar as alterações a linha do tempo do trabalho
+
+$ git add remote - linkar o repositório remoto do github ao repositório local
+
+$ git push origin main - enviar os arquivos commitados para o repositório remoto
+
+$ git clone - clonar localmente um repositório remoto
+
+$ git pull - puxar atualizações de um repositório remoto para o repositório localmente
