@@ -1,0 +1,128 @@
+1 - Escrever os comandos mais usados até o momento, com a sintaxe e explicações do
+que fazem. Use como referência o seguinte modelo e os exercícios realizados na aula
+de Terminal:
+
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~
+$ cd Desktop/a
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a
+$ ls
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a
+$ git clone git@github.com:hugopinheirohps/T13_Intro_Info.git
+Cloning into 'T13_Intro_Info'...
+Enter passphrase for key '/c/Users/pascj/.ssh/id_rsa':
+remote: Enumerating objects: 25, done.
+remote: Counting objects: 100% (25/25), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 25 (delta 0), reused 14 (delta 0), pack-reused 0
+Receiving objects: 100% (25/25), 4.11 KiB | 300.00 KiB/s, done.
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a
+$ ls
+T13_Intro_Info/
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a
+$ cd T13_Intro_Info/
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (main)
+$ ls
+teste.txt
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (main)
+$ git checkout -b paulo_alexandre
+Switched to a new branch 'paulo_alexandre'
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ mkdir git_e_github_paulo_alexandre
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ touch historia_github_paulo_alexandre
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ code .
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ git status
+On branch paulo_alexandre
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        historia_github_paulo_alexandre.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+g
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ git add .
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ git commit -m"Adicionando minha branch"
+[paulo_alexandre 78f12a6] Adicionando minha branch
+ 1 file changed, 8 insertions(+)
+ create mode 100644 historia_github_paulo_alexandre.txt
+gi
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ git push -u origin paulo_alexandre
+Enter passphrase for key '/c/Users/pascj/.ssh/id_rsa':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 694 bytes | 173.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'paulo_alexandre' on GitHub by visiting:
+remote:      https://github.com/hugopinheirohps/T13_Intro_Info/pull/new/paulo_alexandre
+remote:
+To github.com:hugopinheirohps/T13_Intro_Info.git
+ * [new branch]      paulo_alexandre -> paulo_alexandre
+Branch 'paulo_alexandre' set up to track remote branch 'paulo_alexandre' from 'origin'.
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ ls
+git_e_github_paulo_alexandre/  historia_github_paulo_alexandre.txt  teste.txt
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ mv historia_github_paulo_alexandre.txt  git_e_github_paulo_alexandre/
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ ls
+git_e_github_paulo_alexandre/  teste.txt
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ ls
+git_e_github_paulo_alexandre/  teste.txt
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ git add .
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ git commit -m "Adicionando branch minha"
+[paulo_alexandre 836f877] Adicionando branch minha
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename historia_github_paulo_alexandre.txt => git_e_github_paulo_alexandre/historia_github_paulo_alexandre.txt (100%)
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ git push
+Enter passphrase for key '/c/Users/pascj/.ssh/id_rsa':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 380 bytes | 76.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:hugopinheirohps/T13_Intro_Info.git
+   78f12a6..836f877  paulo_alexandre -> paulo_alexandre
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ ls
+git_e_github_paulo_alexandre/  teste.txt
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info (paulo_alexandre)
+$ cd git_e_github_paulo_alexandre/
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info/git_e_github_paulo_alexandre (paulo_alexandre)
+$ touch comandos_git_paulo_alexandre.txt
+
+pascj@LAPTOP-G0NR32FB MINGW64 ~/Desktop/a/T13_Intro_Info/git_e_github_paulo_alexandre (paulo_alexandre)
+$
