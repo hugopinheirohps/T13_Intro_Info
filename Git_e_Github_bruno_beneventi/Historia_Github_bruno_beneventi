@@ -1,0 +1,9 @@
+a. Quem inventou o sistema de controle de versão Git e por quê?
+Por definição, o Git é um Sistema de Controle de Versão Distribuído. Ele foi criado por Linus Torvalds, que é mais conhecido por outra criação, o Linux.
+Linus desenvolveu o Git após ter ficado insatisfeito com uma mudança de licença de utilização do BitKeeper, o sistema de controle de versão que era utilizado por ele e pela equipe que desenvolvia o Linux.
+
+b. Quem atualmente é o dono do Github e por quê?
+O GitHub é um recurso essencial para milhões de programadores. Ele hospeda 80 milhões de repositórios, e permite colaborar em projetos privados ou de código aberto. A plataforma é usada por grandes empresas, incluindo a Microsoft — que se tornou sua nova dona.
+
+c. Existe outra maneira, além do terminal, de trabalhar com o Github?
+Outro fator importante do git (e essa é um dos seus diferenciais em relação ao svn – caso vc o conheça) é a possibilidade de criar, a qualquer momento, vários snapshots do seu projeto, ou como chamamos mais “nerdmenete”, branch. Suponha que o seu projeto seja um site html, e você deseja criar uma nova seção no seu código HTML, mas naquele momento você não deseja que estas alterações estejam disponíveis para mais ninguém, só para você. Isso é, você quer alterar o projeto (incluindo vários arquivos nele), mas ainda não quer que isso seja tratado como “oficial” para outras pessoas, então vc cria um branch (como se fosse uma cópia espelho) e então trabalha apenas nesse branch, até acertar todos os detalhes dele. Após isso, você pode fazer um merge de volta do seu branch até o projeto original. Veja bem, se tudo isso que você leu só ajudou a te confundir mais – respire fundo – e siga em frente. Com exemplos tudo fica melhor.
