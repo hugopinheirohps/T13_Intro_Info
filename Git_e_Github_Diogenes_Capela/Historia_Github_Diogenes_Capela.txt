@@ -1,0 +1,2 @@
+a. Quem inventou o sistema de controle de versão Git e por quê?
+b. Quem atualmente é o dono do Github e por quê?
