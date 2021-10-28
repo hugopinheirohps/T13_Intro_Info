@@ -1,10 +1,29 @@
 Git Init
+Inicia ou reinicia um repositorio local do git na pasta
+
 Git Add
+Adiciona alterações feitas desde o ultimo commit
+
 Git Commit
+enviar e guardar, ou seja, enviar dados ou códigos para armazenamento em um banco de dados ou em um sistema de controle de versão
+ 
 Git Clone
+Clona um repositorio do git na sua maquina
+
 Git remote add <nome> <link>
+adiciona/conecta um repositorio remoto a um repositorio local
+
 Git Checkout
+troca de branch
+
 Git merge
+juntas branchs
+
 Git push <nome-remote> <nome-branch>
+Publica as alterações locais no repositorio remoto
+
 Git pull <nome-remote> <nome-branch>
+buscar e baixar conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais
+
 Git status
+verifica se a sua branch esta atualizada em relação ao ultimo commit
