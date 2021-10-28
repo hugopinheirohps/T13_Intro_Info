@@ -1,4 +1,8 @@
-Clonar un repositorio existente
-$ git clone ssh://usuario@domain.com/repo.git
-Criar um novo repositório local
-$ git init
+Navegar entre pastas 
+cd nomePasta 
+Criar pastas
+mkdir nomePasta
+Excluir pastas
+rm nomeArquivo.extensao
+Mover pastas
+mv
