@@ -1,0 +1,3 @@
+Comandos de criaçao:
+git init = configura o repositorio atual para ser um repositorio Git
+mkdir + "nome" = cria uma pasta com o que foi escrito em "nome".
