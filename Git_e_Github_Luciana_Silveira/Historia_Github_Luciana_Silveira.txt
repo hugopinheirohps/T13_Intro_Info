@@ -1,0 +1,5 @@
+Linus Torvald criou o sistema Git para versionamento durante o desenvolvimento do kernel do Linux.
+
+Atualmente, a Microsoft é dona do Github por 7,5 bilhões de dólares.
+
+É possível trabalhar com o git pelo Git Bash e pelo Github Desktop.
