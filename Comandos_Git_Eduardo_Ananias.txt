@@ -1,0 +1,8 @@
+'Git init' - Criar um repositorio local
+'Git clone' - Criar um clone de um repositorio remoto
+'Git add' - Adicona os arquivos e suas modificações
+'Git commit -m' - Faz o comentario na linha da historia
+'Git push' - Sobe os arquivos para o repositorio
+'Git pull' - Baixa os arquivos do repositorio remoto
+'Git branch' - Cria uma nova branch para trabalhar em paralelo
+'Git checkout + nome da branch'
