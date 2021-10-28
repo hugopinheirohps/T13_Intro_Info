@@ -1,0 +1,16 @@
+COMANDOS
+
+git clone <url do repositório> 
+Faz o donwload do repositório remoto.
+
+git init
+Cria um repositório local
+
+git add .
+Adiciona as alterações feitas.
+
+git commit -m "< adicionar comentário sobre altreações feitas >"
+Inclui as alteraçõa no repositório local
+
+git push origin <nome da branch>
+Inclui as alterações do repositório local ao repositório remoto.
