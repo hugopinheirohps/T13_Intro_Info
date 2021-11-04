@@ -1,0 +1,7 @@
+git init: Este comando é usado para criar um novo repositório GIT.
+
+git add: O comando git add pode ser usado para adicionar arquivos ao índice. 
+
+git commit: O comando git commit é usado para confirmar as alterações na cabeça. Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto. 
+
+git status: O comando git status exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados.
